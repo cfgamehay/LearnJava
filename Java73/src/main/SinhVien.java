@@ -1,4 +1,8 @@
-public class SinhVien implements Comparable<SinhVien>{
+package main;
+
+import java.io.Serializable;
+
+public class SinhVien implements Comparable<SinhVien>, Serializable {
     private int maSinhVien;
     private String hoTen;
     private int namSinh;
